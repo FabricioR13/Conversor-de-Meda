@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: #8A51FC;
+
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px 24px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #8A51FC;
+    margin-top: 5px;
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+select, input {
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+section {
+    border-radius: 20px ;
+    border: 1px solid #8A51FC;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    
+    
+}
+
+p { 
+    margin: 2px;
+    height: 20px;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+}
+
+.moeda {
+     display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.bandeira-brasil, .bandeira-pais {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+   
+}
+
+.seta {
+    margin: 15px;
+    height: 30px;
+}
+
+.escrita-real, .escrita-name  {
+    
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.valor-a-converter, .valor-convertido {
+
+   color: #555555;
+   font-weight: 700;
+   font-size: 15px; 
+
+}
+
+
+
